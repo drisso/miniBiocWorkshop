@@ -2,7 +2,11 @@
 title: "Simple Vignette"
 author: "Davide Risso"
 date: "2023-11-06"
-output: html_document
+output: rmarkdown::html_vignette
+vignette: >
+  %\VignetteIndexEntry{Simple Vignette}
+  %\VignetteEngine{knitr::rmarkdown}
+  %\VignetteEncoding{UTF-8}
 ---
 
 ```{r setup, include=FALSE}
